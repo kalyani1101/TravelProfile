@@ -1,0 +1,19 @@
+{% load static %}
+<!Doctype html>
+<html>
+<head>
+<title>My page</title>
+<link rel="stylesheet" href="{% static 'todo/main.css' %}" >
+</head>
+<body>
+Hello<br>
+{% for contents in content %}
+{{content.content}}
+{% endfor %}
+<iframe height="480" width="500"  
+src="https://www.youtube.com/embed/r887IyH48Do?autoplay=1"> 
+</iframe> 
+<p>Use this coupon to get discount of 70%!!!</p>
+
+</body>
+</html>
